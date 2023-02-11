@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":0,},
@@ -32,11 +32,17 @@
     "IDEVersion": "2023.1.0.58",
   },
   "resources": [
-    {"id":{"name":"menu_background","path":"sprites/menu_background/menu_background.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"o_menuStartBtn","path":"objects/o_menuStartBtn/o_menuStartBtn.yy",},"order":0,},
+    {"id":{"name":"o_menuEndBtn","path":"objects/o_menuEndBtn/o_menuEndBtn.yy",},"order":0,},
+    {"id":{"name":"spr_menuBackground","path":"sprites/spr_menuBackground/spr_menuBackground.yy",},"order":0,},
+    {"id":{"name":"spr_menuExitBtn","path":"sprites/spr_menuExitBtn/spr_menuExitBtn.yy",},"order":0,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":0,},
+    {"id":{"name":"spr_menuStartBtn","path":"sprites/spr_menuStartBtn/spr_menuStartBtn.yy",},"order":0,},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

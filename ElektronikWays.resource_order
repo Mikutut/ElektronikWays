@@ -16,6 +16,9 @@
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"menu_background","order":1,"path":"sprites/menu_background/menu_background.yy",},
+    {"name":"o_menuEndBtn","order":1,"path":"objects/o_menuEndBtn/o_menuEndBtn.yy",},
+    {"name":"spr_menuExitBtn","order":2,"path":"sprites/spr_menuExitBtn/spr_menuExitBtn.yy",},
+    {"name":"Room2","order":2,"path":"rooms/Room2/Room2.yy",},
+    {"name":"spr_menuStartBtn","order":1,"path":"sprites/spr_menuStartBtn/spr_menuStartBtn.yy",},
   ],
 }

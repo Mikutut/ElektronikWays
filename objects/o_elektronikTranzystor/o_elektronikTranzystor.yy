@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_menuStartBtn",
+  "name": "o_elektronikTranzystor",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_menuStartBtn",
-    "path": "sprites/spr_menuStartBtn/spr_menuStartBtn.yy",
+    "name": "spr_elektronikTranzystor",
+    "path": "sprites/spr_elektronikTranzystor/spr_elektronikTranzystor.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,14 +1,14 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "TechnikElektronik",
+  "name": "minigame2",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_4C707B46","path":"rooms/TechnikElektronik/TechnikElektronik.yy",},
-    {"name":"inst_1C2580A8","path":"rooms/TechnikElektronik/TechnikElektronik.yy",},
+    {"name":"inst_4C707B46","path":"rooms/minigame2/minigame2.yy",},
+    {"name":"inst_1C2580A8","path":"rooms/minigame2/minigame2.yy",},
   ],
   "isDnd": false,
   "layers": [

@@ -8,6 +8,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_coffee2","order":2,"path":"sprites/spr_coffee2/spr_coffee2.yy",},
     {"name":"spr_coffee1","order":1,"path":"sprites/spr_coffee1/spr_coffee1.yy",},
+    {"name":"snd_vendingMachineHum","order":2,"path":"sounds/snd_vendingMachineHum/snd_vendingMachineHum.yy",},
     {"name":"o_combination","order":3,"path":"objects/o_combination/o_combination.yy",},
     {"name":"snd_buttonClick","order":3,"path":"sounds/snd_buttonClick/snd_buttonClick.yy",},
     {"name":"o_programistaCopy","order":2,"path":"objects/o_programistaCopy/o_programistaCopy.yy",},

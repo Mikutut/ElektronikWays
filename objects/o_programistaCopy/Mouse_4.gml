@@ -4,8 +4,9 @@
 if(global.mg3_gameState == 1) {
 	global.mg3_gameState = 2;
 	
-	max_x = display_get_width();
-	max_y = display_get_height();
+	
+	max_x = display_width;
+	max_y = display_height;
 	
 	btn_x = irandom_range(700, max_x - 700);
 	btn_y = irandom_range(200, max_y - 200);

@@ -14,11 +14,11 @@ function ChangeToRandomRoom() {
 	if(global.mistakes == 3) {
 		room_goto(Menu);
 	} else {
-		var room_idx = irandom(amount_of_minigames - 1);
-		if(global.last_room_idx = room_idx){
-			if(global.last_room_idx == 0) {global.last_room_idx +=1;}
-			else {global.last_room_idx -= 1;}
-		}
+		do{ 
+			var room_idx = irandom(amount_of_minigames);
+		} until(room_idx != global.last_room_idx);
+		//temporary, since games 0 and 1 don't work
+		room_idx = clamp(room_idx,2,3);
 		global.current_room_idx = room_idx;
 		global.last_room_idx = room_idx;
 		var random_room = asset_get_index("minigame" + string(room_idx));
@@ -44,3 +44,6 @@ function finishMinigame(isCompletedPositively) {
 	
 	ChangeToStatsRoom();
 }
+
+#macro display_width clamp(display_get_width(),0,1920)
+#macro display_height clamp(display_get_height(),0,1080)

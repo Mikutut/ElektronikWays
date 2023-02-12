@@ -4,7 +4,7 @@
   "name": "spr_timeBar",
   "bbox_bottom": 63,
   "bbox_left": 0,
-  "bbox_right": 1919,
+  "bbox_right": 1365,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1920,
+  "width": 1366,
 }

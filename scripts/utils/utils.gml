@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-#macro amount_of_minigames 4 // keep in mind that minigames are counted from 0
+#macro amount_of_minigames 5 // keep in mind that minigames are counted from 0
 
 global.score = 0;
 global.mistakes = 0;
@@ -19,7 +19,7 @@ function ChangeToRandomRoom() {
 			var room_idx = irandom(amount_of_minigames - 1);
 		} until(room_idx != global.last_room_idx);
 		//temporary, since games 0 and 1 don't work
-		room_idx = clamp(room_idx,2,3);
+		room_idx = clamp(room_idx,2,4);
 		room_idx = 0;
 		global.current_room_idx = room_idx;
 		global.last_room_idx = room_idx;

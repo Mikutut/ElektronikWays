@@ -4,7 +4,7 @@ if(x > room_width) {
 	
 	timer = time_source_create(time_source_game, random_range(0, 0.5), time_source_units_seconds, function() {
 		x = -sprite_width - 100;
-		hspeed = irandom(8) + 12;
+		hspeed = irandom(12) + 12;
 	}, [], 1);
 	time_source_start(timer);
 } 

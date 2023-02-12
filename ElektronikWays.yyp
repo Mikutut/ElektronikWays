@@ -100,6 +100,7 @@
     {"id":{"name":"spr_programistaHeap","path":"sprites/spr_programistaHeap/spr_programistaHeap.yy",},"order":0,},
     {"id":{"name":"o_automatykCableRed","path":"objects/o_automatykCableRed/o_automatykCableRed.yy",},"order":0,},
     {"id":{"name":"o_programistaChrome","path":"objects/o_programistaChrome/o_programistaChrome.yy",},"order":0,},
+    {"id":{"name":"snd_carCrash","path":"sounds/snd_carCrash/snd_carCrash.yy",},"order":0,},
     {"id":{"name":"o_programistaController","path":"objects/o_programistaController/o_programistaController.yy",},"order":0,},
     {"id":{"name":"spr_automatykCableBlue","path":"sprites/spr_automatykCableBlue/spr_automatykCableBlue.yy",},"order":0,},
     {"id":{"name":"o_automatykSocketBlack","path":"objects/o_automatykSocketBlack/o_automatykSocketBlack.yy",},"order":0,},

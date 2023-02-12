@@ -26,6 +26,8 @@ function ChangeToRandomRoom() {
 		var random_room = asset_get_index("minigame" + string(room_idx));
 		room_goto(random_room);
 	}
+	var random_room = asset_get_index("minigame" + string(room_index)); 
+	room_goto(random_room);
 }
 
 #macro amount_of_time_in_stats 1 // in seconds

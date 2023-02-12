@@ -1,4 +1,4 @@
-/// @description Move object towards power outlet
+ /// @description Move object towards power outlet
 // You can write your code in this editor
 
 //y coordinate needs to be static

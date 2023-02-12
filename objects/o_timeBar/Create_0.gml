@@ -1,4 +1,4 @@
-/// @description Make bar fill entire screen width and set up minigame time
+ /// @description Make bar fill entire screen width and set up minigame time
 // You can write your code in this editor
 
 // Division applied because we're scaling,
@@ -43,7 +43,7 @@ minigame_time = base_minigame_time;
 resize_timer = time_source_create(time_source_game, 1, time_source_units_seconds, function() {
 	minigame_time--;
 	image_xscale = calculateScale(minigame_time / base_minigame_time);
-}, [], minigame_time);
+}, [], minigame_time); 
 minigame_timer = time_source_create(time_source_game, minigame_time, time_source_units_seconds, function() {
 	time_source_destroy(resize_timer);
 	finishMinigame(minigame_timer_expired_wins);	

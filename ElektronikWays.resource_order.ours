@@ -1,0 +1,23 @@
+{
+  "FolderOrderSettings": [
+    {"name":"minigame4","order":9,"path":"folders/Sprites/minigame4.yy",},
+    {"name":"minigame4","order":2,"path":"folders/Objects/minigame4.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"spr_car1","order":3,"path":"sprites/spr_car1/spr_car1.yy",},
+    {"name":"minigame4","order":1,"path":"rooms/minigame4/minigame4.yy",},
+    {"name":"spr_car0","order":2,"path":"sprites/spr_car0/spr_car0.yy",},
+    {"name":"spr_elektronikBackground","order":3,"path":"sprites/spr_elektronikBackground/spr_elektronikBackground.yy",},
+    {"name":"spr_elektronikTranzystor","order":2,"path":"sprites/spr_elektronikTranzystor/spr_elektronikTranzystor.yy",},
+    {"name":"spr_car2","order":4,"path":"sprites/spr_car2/spr_car2.yy",},
+    {"name":"spr_dodger","order":1,"path":"sprites/spr_dodger/spr_dodger.yy",},
+    {"name":"o_timeBar","order":1,"path":"objects/o_timeBar/o_timeBar.yy",},
+    {"name":"spr_car3","order":5,"path":"sprites/spr_car3/spr_car3.yy",},
+    {"name":"spr_statsBg","order":4,"path":"sprites/spr_statsBg/spr_statsBg.yy",},
+    {"name":"spr_menuBackground","order":1,"path":"sprites/spr_menuBackground/spr_menuBackground.yy",},
+    {"name":"spr_menuExitBtn","order":5,"path":"sprites/spr_menuExitBtn/spr_menuExitBtn.yy",},
+    {"name":"o_car","order":1,"path":"objects/o_car/o_car.yy",},
+    {"name":"spr_timeBar","order":6,"path":"sprites/spr_timeBar/spr_timeBar.yy",},
+    {"name":"spr_elektronikGniazdko","order":7,"path":"sprites/spr_elektronikGniazdko/spr_elektronikGniazdko.yy",},
+  ],
+}

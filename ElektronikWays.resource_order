@@ -5,6 +5,7 @@
     {"name":"minigame0","order":9,"path":"folders/Objects/minigame0.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"snd_vendingMachineHum","order":2,"path":"sounds/snd_vendingMachineHum/snd_vendingMachineHum.yy",},
     {"name":"o_programistaCopy","order":2,"path":"objects/o_programistaCopy/o_programistaCopy.yy",},
     {"name":"o_programistaHeap","order":3,"path":"objects/o_programistaHeap/o_programistaHeap.yy",},
     {"name":"snd_sadTrumpet","order":1,"path":"sounds/snd_sadTrumpet/snd_sadTrumpet.yy",},

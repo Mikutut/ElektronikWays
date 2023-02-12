@@ -19,8 +19,7 @@ function ChangeToRandomRoom() {
 			var room_idx = irandom(amount_of_minigames - 1);
 		} until(room_idx != global.last_room_idx);
 		//temporary, since games 0 and 1 don't work
-		room_idx = clamp(room_idx,2,4);
-		room_idx = 4;
+		room_idx = clamp(room_idx,2,5);
 		global.current_room_idx = room_idx;
 		global.last_room_idx = room_idx;
 		var random_room = asset_get_index("minigame" + string(room_idx));

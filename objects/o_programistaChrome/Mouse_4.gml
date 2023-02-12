@@ -3,6 +3,7 @@
 
 //show_message(global.mg3_gameState);
 if(global.mg3_gameState == 0) {
+	audio_play_sound(snd_mouseClick,10,false);
 	global.mg3_gameState = 1;
 	
 	max_x = display_width;

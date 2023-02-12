@@ -1,0 +1,1 @@
+finishMinigame(false);

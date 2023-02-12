@@ -46,5 +46,5 @@ function finishMinigame(isCompletedPositively) {
 	ChangeToStatsRoom();
 }
 
-#macro display_width clamp(display_get_width(),0,1920)
-#macro display_height clamp(display_get_height(),0,1080)
+#macro display_width clamp(display_get_width(),0,1366)
+#macro display_height clamp(display_get_height(),0,768)

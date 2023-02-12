@@ -5,6 +5,7 @@
 // not setting width
 image_xscale = display_width / sprite_get_width(sprite_index);
 
+
 function calculateScale(mult) {
 	return (display_width / sprite_get_width(sprite_index)) * mult;	
 }

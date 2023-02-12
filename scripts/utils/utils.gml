@@ -6,19 +6,22 @@
 global.score = 0;
 global.mistakes = 0;
 
-global.current_room_index = -1;
-global.used_rooms = [];
+global.current_room_idx = -1;
+global.last_room_idx = -1;
 
 function ChangeToRandomRoom() {
 	//show_message(global.used_rooms);
 	if(global.mistakes == 3) {
 		room_goto(Menu);
 	} else {
-		do {
-			var room_index = irandom(amount_of_minigames - 1);
-		} until (array_contains(global.used_rooms, room_index) == false);
-		global.current_room_index = room_index;
-		var random_room = asset_get_index("minigame" + string(room_index));
+		var room_idx = irandom(amount_of_minigames - 1);
+		if(global.last_room_idx = room_idx){
+			if(global.last_room_idx == 0) {global.last_room_idx +=1;}
+			else {global.last_room_idx -= 1;}
+		}
+		global.current_room_idx = room_idx;
+		global.last_room_idx = room_idx;
+		var random_room = asset_get_index("minigame" + string(room_idx));
 		room_goto(random_room);
 	}
 }
@@ -38,11 +41,6 @@ function finishMinigame(isCompletedPositively) {
 		global.mistakes = global.mistakes + 1;
 	}
 	
-	if(array_length(global.used_rooms) >= amount_of_minigames - 1) {
-		array_delete(global.used_rooms, 0, array_length(global.used_rooms));	
-	}
-		
-	array_push(global.used_rooms, global.current_room_index);
 	
 	ChangeToStatsRoom();
 }

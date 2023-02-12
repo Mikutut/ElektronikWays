@@ -3,8 +3,5 @@
 
 //y coordinate needs to be static
 //move_towards_point(o_elektronikGniazdko.x, y, 7);	
-//if (mouse_check_button(mb_left)) {
-	// We only want horizontal drag
-//	 x -= 16; 
-//} 
+// We only want horizontal drag
 x += 7;

@@ -16,7 +16,7 @@ function ChangeToRandomRoom() {
 		room_goto(Menu);
 	} else {
 		do{ 
-			var room_idx = irandom(amount_of_minigames);
+			var room_idx = irandom(amount_of_minigames - 1);
 		} until(room_idx != global.last_room_idx);
 		//temporary, since games 0 and 1 don't work
 		room_idx = clamp(room_idx,2,3);
@@ -26,7 +26,7 @@ function ChangeToRandomRoom() {
 		var random_room = asset_get_index("minigame" + string(room_idx));
 		room_goto(random_room);
 	}
-	var random_room = asset_get_index("minigame" + string(room_index)); 
+	var random_room = asset_get_index("minigame" + string(room_idx)); 
 	room_goto(random_room);
 }
 

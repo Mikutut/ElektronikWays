@@ -7,6 +7,7 @@
   "ResourceOrderSettings": [
     {"name":"o_programistaCopy","order":2,"path":"objects/o_programistaCopy/o_programistaCopy.yy",},
     {"name":"o_programistaHeap","order":3,"path":"objects/o_programistaHeap/o_programistaHeap.yy",},
+    {"name":"snd_sadTrumpet","order":1,"path":"sounds/snd_sadTrumpet/snd_sadTrumpet.yy",},
     {"name":"spr_programistaCopy","order":2,"path":"sprites/spr_programistaCopy/spr_programistaCopy.yy",},
     {"name":"spr_elektronikTranzystor","order":2,"path":"sprites/spr_elektronikTranzystor/spr_elektronikTranzystor.yy",},
     {"name":"o_automatykController","order":3,"path":"objects/o_automatykController/o_automatykController.yy",},

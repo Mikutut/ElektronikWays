@@ -52,6 +52,7 @@
     {"id":{"name":"o_delCode","path":"objects/o_delCode/o_delCode.yy",},"order":0,},
     {"id":{"name":"snd_boom","path":"sounds/snd_boom/snd_boom.yy",},"order":0,},
     {"id":{"name":"o_automatykCableBlack","path":"objects/o_automatykCableBlack/o_automatykCableBlack.yy",},"order":0,},
+    {"id":{"name":"snd_sadTrumpet","path":"sounds/snd_sadTrumpet/snd_sadTrumpet.yy",},"order":0,},
     {"id":{"name":"spr_elektronikBackground","path":"sprites/spr_elektronikBackground/spr_elektronikBackground.yy",},"order":0,},
     {"id":{"name":"spr_programistaCopy","path":"sprites/spr_programistaCopy/spr_programistaCopy.yy",},"order":0,},
     {"id":{"name":"o_randomCode","path":"objects/o_randomCode/o_randomCode.yy",},"order":0,},

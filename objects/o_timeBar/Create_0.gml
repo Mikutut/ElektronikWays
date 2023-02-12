@@ -25,6 +25,9 @@ if(global.current_room_index == 0) {
 } else if(global.current_room_index == 2) {
 	base_minigame_time = 10;	
 	minigame_timer_expired_wins = true;
+} else if(global.current_room_index == 3) {
+	base_minigame_time = 10;
+	minigame_timer_expired_wins = false;
 }
 
 minigame_time = base_minigame_time;

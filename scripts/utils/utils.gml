@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-#macro amount_of_minigames 3 // keep in mind that minigames are counted from 0
+#macro amount_of_minigames 4 // keep in mind that minigames are counted from 0
 
 global.score = 0;
 global.mistakes = 0;

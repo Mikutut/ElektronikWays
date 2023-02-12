@@ -31,6 +31,7 @@
     {"name":"spr_del","order":3,"path":"sprites/spr_del/spr_del.yy",},
     {"name":"o_elektronikTranzystor","order":1,"path":"objects/o_elektronikTranzystor/o_elektronikTranzystor.yy",},
     {"name":"spr_menuBackground","order":5,"path":"sprites/spr_menuBackground/spr_menuBackground.yy",},
+    {"name":"snd_vendingMachineHum","order":4,"path":"sounds/snd_vendingMachineHum/snd_vendingMachineHum.yy",},
     {"name":"spr_programistaPaste","order":4,"path":"sprites/spr_programistaPaste/spr_programistaPaste.yy",},
     {"name":"o_automatykSocketRed","order":6,"path":"objects/o_automatykSocketRed/o_automatykSocketRed.yy",},
     {"name":"spr_programistaSeg","order":5,"path":"sprites/spr_programistaSeg/spr_programistaSeg.yy",},

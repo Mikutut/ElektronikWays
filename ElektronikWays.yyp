@@ -44,7 +44,6 @@
   "resources": [
     {"id":{"name":"spr_coffee2","path":"sprites/spr_coffee2/spr_coffee2.yy",},"order":0,},
     {"id":{"name":"spr_coffee1","path":"sprites/spr_coffee1/spr_coffee1.yy",},"order":0,},
-    {"id":{"name":"snd_vendingMachineHum","path":"sounds/snd_vendingMachineHum/snd_vendingMachineHum.yy",},"order":0,},
     {"id":{"name":"spr_car1","path":"sprites/spr_car1/spr_car1.yy",},"order":0,},
     {"id":{"name":"o_combination","path":"objects/o_combination/o_combination.yy",},"order":0,},
     {"id":{"name":"minigame4","path":"rooms/minigame4/minigame4.yy",},"order":0,},
@@ -86,6 +85,7 @@
     {"id":{"name":"spr_del","path":"sprites/spr_del/spr_del.yy",},"order":0,},
     {"id":{"name":"o_elektronikTranzystor","path":"objects/o_elektronikTranzystor/o_elektronikTranzystor.yy",},"order":0,},
     {"id":{"name":"spr_menuBackground","path":"sprites/spr_menuBackground/spr_menuBackground.yy",},"order":0,},
+    {"id":{"name":"snd_vendingMachineHum","path":"sounds/snd_vendingMachineHum/snd_vendingMachineHum.yy",},"order":0,},
     {"id":{"name":"spr_programistaPaste","path":"sprites/spr_programistaPaste/spr_programistaPaste.yy",},"order":0,},
     {"id":{"name":"spr_automatykBackground","path":"sprites/spr_automatykBackground/spr_automatykBackground.yy",},"order":0,},
     {"id":{"name":"o_automatykSocketRed","path":"objects/o_automatykSocketRed/o_automatykSocketRed.yy",},"order":0,},

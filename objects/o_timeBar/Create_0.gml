@@ -33,6 +33,9 @@ switch (global.current_room_idx){
 	case 3:
 		game_conditions(10,false);
 		break;
+	case 5:
+		game_conditions(10, false);
+		break;
 	default:
 		game_conditions(10,false);
 		break;

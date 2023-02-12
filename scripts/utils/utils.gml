@@ -10,6 +10,7 @@ global.current_room_idx = -1;
 global.last_room_idx = -1;
 
 function ChangeToRandomRoom() {
+	randomize();
 	//show_message(global.used_rooms);
 	if(global.mistakes == 3) {
 		room_goto(Menu);

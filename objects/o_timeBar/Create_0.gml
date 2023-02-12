@@ -3,11 +3,15 @@
 
 // Division applied because we're scaling,
 // not setting width
-// All background are have at max 1920px width
 image_xscale = display_width / sprite_get_width(sprite_index);
 
 function calculateScale(mult) {
 	return (display_width / sprite_get_width(sprite_index)) * mult;	
+}
+
+function game_conditions(time,expired_wins){
+		base_minigame_time = time;
+		minigame_timer_expired_wins = expired_wins;
 }
 
 base_minigame_time = -1;
@@ -15,20 +19,22 @@ minigame_time = -1;
 minigame_timer_expired_wins = false; // Whether timer expiration counts as win or lose
 
 // TODO: Add other minigames to the if-statement
-if(global.current_room_idx == 0) {
-	// FIXME: Made-up values, replace them accordingly
-	base_minigame_time = 10;
-	minigame_timer_expired_wins = false;
-} else if(global.current_room_idx == 1) {
-	// FIXME: Made-up values, replace them accordingly
-	base_minigame_time = 10;
-	minigame_timer_expired_wins = false;
-} else if(global.current_room_idx == 2) {
-	base_minigame_time = 10;	
-	minigame_timer_expired_wins = true;
-} else if(global.current_room_idx == 3) {
-	base_minigame_time = 10;
-	minigame_timer_expired_wins = false;
+switch (global.current_room_idx){
+	case 0:
+		game_conditions(10,false);
+		break;
+	case 1:
+		game_conditions(10,false);
+		break;
+	case 2:
+		game_conditions(10,true);
+		break;
+	case 3:
+		game_conditions(10,false);
+		break;
+	default:
+		game_conditions(10,false);
+		break;
 }
 
 minigame_time = base_minigame_time;

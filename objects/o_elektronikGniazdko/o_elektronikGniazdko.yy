@@ -26,8 +26,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
-  "spriteId": null,
+  "solid": true,
+  "spriteId": {
+    "name": "spr_elektronikGniazdko",
+    "path": "sprites/spr_elektronikGniazdko/spr_elektronikGniazdko.yy",
+  },
   "spriteMaskId": null,
   "visible": false,
 }

@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 if(global.mg3_gameState == 1) {
+	audio_play_sound(snd_mouseClick,10,false);
 	global.mg3_gameState = 2;
 	
 	max_x = display_width;

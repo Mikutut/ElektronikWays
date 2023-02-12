@@ -44,7 +44,6 @@ function finishMinigame(isCompletedPositively) {
 		global.mistakes = global.mistakes + 1;
 	}
 	
-	
 	ChangeToStatsRoom();
 }
 

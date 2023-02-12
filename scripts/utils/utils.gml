@@ -1,9 +1,14 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-#macro amount_of_minigames 2 // keep in mind that minigames are counted from 0
+#macro amount_of_minigames 3 // keep in mind that minigames are counted from 0
+
+global.score = 0;
+global.mistakes = 0;
+
 global.last_room_index = -1;
 global.current_room_index = -1;
+
 function ChangeToRandomRoom() {
 	if(global.mistakes == 3) return room_goto(Menu);
 	do {

@@ -1,9 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_elektronikGniazdko",
+  "name": "o_timeBar",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"o_elektronikTranzystor","path":"objects/o_elektronikTranzystor/o_elektronikTranzystor.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -26,11 +27,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_elektronikGniazdko",
-    "path": "sprites/spr_elektronikGniazdko/spr_elektronikGniazdko.yy",
+    "name": "spr_timeBar",
+    "path": "sprites/spr_timeBar/spr_timeBar.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

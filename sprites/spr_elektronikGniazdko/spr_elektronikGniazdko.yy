@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_menuExitBtn",
-  "bbox_bottom": 99,
+  "name": "spr_elektronikGniazdko",
+  "bbox_bottom": 0,
   "bbox_left": 0,
-  "bbox_right": 499,
+  "bbox_right": 0,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7528e6ed-8a3e-4c83-af3b-d692a5c5bde3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"77f991a5-9d1d-450e-9ea7-d67fceff8020",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 100,
+  "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"118d6d14-9b84-4e33-8de8-c343488039d3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6ce08373-b4aa-4fb2-985f-3f8e2db99220","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_menuExitBtn",
+    "name": "spr_elektronikGniazdko",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7528e6ed-8a3e-4c83-af3b-d692a5c5bde3","path":"sprites/spr_menuExitBtn/spr_menuExitBtn.yy",},},},"Disabled":false,"id":"8e799a6a-d113-4037-9bfa-019297cd00cc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"77f991a5-9d1d-450e-9ea7-d67fceff8020","path":"sprites/spr_elektronikGniazdko/spr_elektronikGniazdko.yy",},},},"Disabled":false,"id":"26f61817-831a-4df4-b7c6-dbb1a7b8fc16","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 500,
+  "width": 64,
 }

@@ -1,9 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_menuStartBtn",
+  "name": "Object4",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_menuStartBtn",
-    "path": "sprites/spr_menuStartBtn/spr_menuStartBtn.yy",
+    "name": "spr_menuExitBtn",
+    "path": "sprites/spr_menuExitBtn/spr_menuExitBtn.yy",
   },
   "spriteMaskId": null,
   "visible": true,

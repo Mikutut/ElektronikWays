@@ -1,9 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_menuStartBtn",
+  "name": "o_elektronikTranzystor",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_menuStartBtn",
-    "path": "sprites/spr_menuStartBtn/spr_menuStartBtn.yy",
+    "name": "spr_elektronikTranzystor",
+    "path": "sprites/spr_elektronikTranzystor/spr_elektronikTranzystor.yy",
   },
   "spriteMaskId": null,
   "visible": true,

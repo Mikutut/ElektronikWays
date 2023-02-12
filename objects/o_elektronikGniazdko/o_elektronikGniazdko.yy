@@ -1,9 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_menuStartBtn",
+  "name": "o_elektronikGniazdko",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"o_elektronikTranzystor","path":"objects/o_elektronikTranzystor/o_elektronikTranzystor.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -26,11 +26,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
-    "name": "spr_menuStartBtn",
-    "path": "sprites/spr_menuStartBtn/spr_menuStartBtn.yy",
+    "name": "spr_elektronikGniazdko",
+    "path": "sprites/spr_elektronikGniazdko/spr_elektronikGniazdko.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

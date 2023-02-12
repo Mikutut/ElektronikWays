@@ -13,6 +13,7 @@
     {"name":"o_programistaCopy","order":2,"path":"objects/o_programistaCopy/o_programistaCopy.yy",},
     {"name":"o_programistaHeap","order":3,"path":"objects/o_programistaHeap/o_programistaHeap.yy",},
     {"name":"o_delCode","order":2,"path":"objects/o_delCode/o_delCode.yy",},
+    {"name":"snd_sadTrumpet","order":1,"path":"sounds/snd_sadTrumpet/snd_sadTrumpet.yy",},
     {"name":"spr_programistaCopy","order":2,"path":"sprites/spr_programistaCopy/spr_programistaCopy.yy",},
     {"name":"o_randomCode","order":1,"path":"objects/o_randomCode/o_randomCode.yy",},
     {"name":"spr_transparent","order":6,"path":"sprites/spr_transparent/spr_transparent.yy",},

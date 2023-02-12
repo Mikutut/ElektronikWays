@@ -1,1 +1,1 @@
-hspeed = irandom(12) + 12;
+hspeed = irandom(50) + 12;

@@ -8,5 +8,6 @@
     {"name":"spr_menuBackground","order":1,"path":"sprites/spr_menuBackground/spr_menuBackground.yy",},
     {"name":"spr_menuExitBtn","order":5,"path":"sprites/spr_menuExitBtn/spr_menuExitBtn.yy",},
     {"name":"spr_timeBar","order":6,"path":"sprites/spr_timeBar/spr_timeBar.yy",},
+    {"name":"spr_elektronikGniazdko","order":7,"path":"sprites/spr_elektronikGniazdko/spr_elektronikGniazdko.yy",},
   ],
 }

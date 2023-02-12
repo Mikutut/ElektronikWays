@@ -52,6 +52,7 @@
     {"id":{"name":"minigame0","path":"rooms/minigame0/minigame0.yy",},"order":0,},
     {"id":{"name":"o_scoreCounter","path":"objects/o_scoreCounter/o_scoreCounter.yy",},"order":0,},
     {"id":{"name":"spr_menuStartBtn","path":"sprites/spr_menuStartBtn/spr_menuStartBtn.yy",},"order":0,},
+    {"id":{"name":"spr_elektronikGniazdko","path":"sprites/spr_elektronikGniazdko/spr_elektronikGniazdko.yy",},"order":0,},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":0,},
   ],
   "RoomOrderNodes": [

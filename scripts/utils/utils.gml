@@ -3,12 +3,16 @@
 
 #macro amount_of_minigames 2 // keep in mind that minigames are counted from 0
 global.last_room_index = -1;
+global.current_room_index = -1;
 function ChangeToRandomRoom() {
 	if(global.mistakes == 3) return room_goto(Menu);
 	do {
 		var room_index = irandom(amount_of_minigames - 1);
 	} until (room_index != global.last_room_index);
-	global.last_room_index = room_index;
+	global.current_room_index = room_index;
+	if(global.last_room_index == -1) {
+		global.last_room_index = room_index;
+	}
 	var random_room = asset_get_index("minigame" + string(room_index));
 	room_goto(random_room);
 }
@@ -23,5 +27,6 @@ function ChangeToStatsRoom() {
 function finishMinigame(isCompletedPositively) {
 	if(isCompletedPositively) global.score = global.score + 1;
 	else global.mistakes = global.mistakes + 1;
+	global.last_room_index = global.current_room_index;
 	ChangeToStatsRoom();
 }

@@ -1,15 +1,13 @@
 {
   "FolderOrderSettings": [
-    {"name":"minigame5","order":1,"path":"folders/Objects/minigame5.yy",},
-    {"name":"minigame3","order":2,"path":"folders/Objects/minigame3.yy",},
-    {"name":"minigame2","order":3,"path":"folders/Objects/minigame2.yy",},
-    {"name":"minigame5","order":1,"path":"folders/Sprites/minigame5.yy",},
-    {"name":"minigame3","order":2,"path":"folders/Sprites/minigame3.yy",},
-    {"name":"minigame2","order":3,"path":"folders/Sprites/minigame2.yy",},
+    {"name":"minigame4","order":2,"path":"folders/Objects/minigame4.yy",},
+    {"name":"minigame4","order":9,"path":"folders/Sprites/minigame4.yy",},
+    {"name":"minigame0","order":9,"path":"folders/Objects/minigame0.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"o_programistaCopy","order":2,"path":"objects/o_programistaCopy/o_programistaCopy.yy",},
     {"name":"o_programistaHeap","order":3,"path":"objects/o_programistaHeap/o_programistaHeap.yy",},
+    {"name":"snd_sadTrumpet","order":1,"path":"sounds/snd_sadTrumpet/snd_sadTrumpet.yy",},
     {"name":"spr_programistaCopy","order":2,"path":"sprites/spr_programistaCopy/spr_programistaCopy.yy",},
     {"name":"spr_elektronikTranzystor","order":2,"path":"sprites/spr_elektronikTranzystor/spr_elektronikTranzystor.yy",},
     {"name":"o_automatykController","order":3,"path":"objects/o_automatykController/o_automatykController.yy",},

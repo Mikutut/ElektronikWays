@@ -3,3 +3,5 @@
 
 coffee_idx = irandom(2);
 sprite_index = asset_get_index("spr_coffee" + string(coffee_idx));
+
+

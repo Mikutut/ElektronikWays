@@ -35,7 +35,7 @@ else {
 	global.gauge_set = false;
 }
 
-audio_sound_gain(rick, (image_angle - 102.9) / 147.73, 1);
+audio_sound_gain(rick, (image_angle - 102.9) / 300, 1);
 
 if(global.gauge_set == true){
 		self.sprite_index = asset_get_index("spr_gauge_set");

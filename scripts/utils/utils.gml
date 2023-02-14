@@ -16,7 +16,7 @@ function ChangeToRandomRoom() {
 		room_goto(Menu);
 	} else {
 		do{ 
-			var room_idx = irandom(amount_of_minigames - 1);
+			room_idx = irandom(amount_of_minigames - 1);
 		} until(room_idx != global.last_room_idx);
 		//temporary, since games 0 and 1 don't work
 		//room_idx = clamp(room_idx,2,5);
@@ -25,8 +25,6 @@ function ChangeToRandomRoom() {
 		var random_room = asset_get_index("minigame" + string(room_idx));
 		room_goto(random_room);
 	}
-	var random_room = asset_get_index("minigame" + string(room_idx)); 
-	room_goto(random_room);
 }
 
 #macro amount_of_time_in_stats 1 // in seconds
@@ -37,6 +35,11 @@ function ChangeToStatsRoom() {
 }
 
 function finishMinigame(isCompletedPositively) {
+	if(global.current_room_idx == 1){
+		isCompletedPositively = global.gauge_set;	
+		time_source_stop(global.self_turn);
+		audio_stop_sound(global.rick);
+	}
 	if(isCompletedPositively) {
 		global.score = global.score + 1;
 	}

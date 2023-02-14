@@ -3,6 +3,7 @@
 
 randomise();
 
+start_angle = image_angle;
 global.last_pt = 0.0;
 
 dir = 0;

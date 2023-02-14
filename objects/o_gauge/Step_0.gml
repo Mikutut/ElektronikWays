@@ -1,15 +1,21 @@
-/// @description Rotate accordingly to mouse position
+// @description Rotate accordingly to mouse position
 // W tym edytorze możesz zapisać swój kod
 
-var pt = point_direction(self.x, self.y, mouse_x, mouse_y);
+//normalize
+var pt = point_direction(self.x, self.y, mouse_x, mouse_y) - start_angle;
 
-if(global.gauge_focus == true){
-	if(global.last_pt == pt) return;
-	else if(pt <= 251.72 && pt >= 102.9){ 
+show_debug_message(pt)
+
+if(global.gauge_focus){
+	if(global.last_pt == pt) {
+		return;
+	}
+	//else if(pt <= (251.72 - start_angle) && pt >= (102.9 - start_angle)){ 
+	else{
 		image_angle = pt;
 		global.last_pt = pt;
 	}
-	else return;
+	//else return;
 }
 
 if (

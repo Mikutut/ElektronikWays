@@ -36,7 +36,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"minigame2","folderPath":"folders/Sprites/minigame2.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"minigame0","folderPath":"folders/Sprites/minigame0.yy","order":0,},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"gaff.ttf","CopyToMask":3035426170322551022,"filePath":"datafiles",},
+  ],
   "isEcma": false,
   "MetaData": {
     "IDEVersion": "2023.1.0.58",

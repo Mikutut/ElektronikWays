@@ -20,7 +20,6 @@ function ChangeToRandomRoom() {
 		} until(room_idx != global.last_room_idx);
 		//temporary, since games 0 and 1 don't work
 		//room_idx = clamp(room_idx,2,5);
-		room_idx = 1;
 		global.current_room_idx = room_idx;
 		global.last_room_idx = room_idx;
 		var random_room = asset_get_index("minigame" + string(room_idx));
@@ -38,8 +37,6 @@ function ChangeToStatsRoom() {
 function finishMinigame(isCompletedPositively) {
 	if(global.current_room_idx == 1){
 		isCompletedPositively = global.gauge_set;	
-		time_source_stop(global.self_turn);
-		audio_stop_sound(global.rick);
 	}
 	if(isCompletedPositively) {
 		global.score = global.score + 1;

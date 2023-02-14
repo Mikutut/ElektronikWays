@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 start_angle = image_angle;
-global.gauge_focus = false;
+gauge_focus = false;

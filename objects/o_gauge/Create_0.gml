@@ -3,16 +3,17 @@
 
 randomise();
 
-start_angle = image_angle;
-global.last_pt = 0.0;
-
+start_angle = 180;
+last_pt = 0.0;
+pt = 0.0;
+check_pt = false;
 dir = 0;
 
-global.gauge_focus = false;
+gauge_focus = false;
 
 global.gauge_set = false;
 
-global.gauge_scales = [
+gauge_scales = [
 	236.79,
 	230.76,
 	209.15,
@@ -22,7 +23,7 @@ global.gauge_scales = [
 	112.11
 ];
 
-image_align = global.gauge_scales[6];
+image_align = gauge_scales[6];
 
 var scale_sprites = [
 	layer_get_id("skala1"),
@@ -34,24 +35,24 @@ var scale_sprites = [
 	layer_get_id("skala7"),
 ];
 
-global.drawn_num = floor(random_range(0,6));
+drawn_num = floor(random_range(0,6));
 
-layer_set_visible(scale_sprites[global.drawn_num], true);
+layer_set_visible(scale_sprites[drawn_num], true);
 
 do{
 	var set_gauge_to = floor(random_range(0,6));
-	image_align = global.gauge_scales[set_gauge_to];
-} until (image_align == global.gauge_scales[global.drawn_num]);
+	image_align = gauge_scales[set_gauge_to];
+} until (image_align == gauge_scales[drawn_num]);
 
-global.rick = audio_play_sound(
+rick = audio_play_sound(
 	asset_get_index("snd_rick"),
 	10,
 	false
 );
 
-audio_sound_gain(global.rick, (image_angle - 102.9) / 147.73, 1);
+audio_sound_gain(rick, (image_angle - 102.9) / 147.73, 1);
 
-global.self_turn = time_source_create(time_source_game, 1, time_source_units_seconds, function(){
+self_turn = time_source_create(time_source_game, 1, time_source_units_seconds, function(){
 	if(dir == 0){
 		if(image_angle + 6.0 < 251.72) image_angle += 6.0;
 		else{ 
@@ -67,17 +68,17 @@ global.self_turn = time_source_create(time_source_game, 1, time_source_units_sec
 	}
 	
 	if (
-	image_angle == global.gauge_scales[global.drawn_num] || 
-	(image_angle <= global.gauge_scales[global.drawn_num] + 2.5 && image_angle >= global.gauge_scales[global.drawn_num]) ||
-	(image_angle >= global.gauge_scales[global.drawn_num] - 2.5 && image_angle <= global.gauge_scales[global.drawn_num])
+	image_angle == gauge_scales[drawn_num] || 
+	(image_angle <= gauge_scales[drawn_num] + 2.5 && image_angle >= gauge_scales[drawn_num]) ||
+	(image_angle >= gauge_scales[drawn_num] - 2.5 && image_angle <= gauge_scales[drawn_num])
 ){  
-	global.gauge_set = true;
+	gauge_set = true;
 }
 else {
-	global.gauge_set = false;
+	gauge_set = false;
 }
 
-if(global.gauge_set == true){
+if(gauge_set == true){
 		self.sprite_index = asset_get_index("spr_gauge_set");
 } else {
 		self.sprite_index = asset_get_index("spr_gauge");
@@ -85,5 +86,5 @@ if(global.gauge_set == true){
 	
 }, [], -1);
 
-time_source_start(global.self_turn);
+time_source_start(self_turn);
 

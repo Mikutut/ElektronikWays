@@ -112,6 +112,7 @@
     {"id":{"name":"spr_programistaHeap","path":"sprites/spr_programistaHeap/spr_programistaHeap.yy",},"order":0,},
     {"id":{"name":"spr_skala_speaker_3","path":"sprites/spr_skala_speaker_3/spr_skala_speaker_3.yy",},"order":0,},
     {"id":{"name":"o_automatykCableRed","path":"objects/o_automatykCableRed/o_automatykCableRed.yy",},"order":0,},
+    {"id":{"name":"o_objective","path":"objects/o_objective/o_objective.yy",},"order":0,},
     {"id":{"name":"o_programistaChrome","path":"objects/o_programistaChrome/o_programistaChrome.yy",},"order":0,},
     {"id":{"name":"snd_carCrash","path":"sounds/snd_carCrash/snd_carCrash.yy",},"order":0,},
     {"id":{"name":"spr_skala_speaker_4","path":"sprites/spr_skala_speaker_4/spr_skala_speaker_4.yy",},"order":0,},

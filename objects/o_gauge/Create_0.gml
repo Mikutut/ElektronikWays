@@ -42,6 +42,13 @@ do{
 	image_align = global.gauge_scales[set_gauge_to];
 } until (image_align == global.gauge_scales[global.drawn_num]);
 
+global.rick = audio_play_sound(
+	asset_get_index("snd_rick"),
+	10,
+	false
+);
+
+audio_sound_gain(global.rick, (image_angle - 102.9) / 147.73, 1);
 
 global.self_turn = time_source_create(time_source_game, 1, time_source_units_seconds, function(){
 	if(dir == 0){
@@ -57,6 +64,25 @@ global.self_turn = time_source_create(time_source_game, 1, time_source_units_sec
 			dir--;
 		}
 	}
+	
+	if (
+	image_angle == global.gauge_scales[global.drawn_num] || 
+	(image_angle <= global.gauge_scales[global.drawn_num] + 2.5 && image_angle >= global.gauge_scales[global.drawn_num]) ||
+	(image_angle >= global.gauge_scales[global.drawn_num] - 2.5 && image_angle <= global.gauge_scales[global.drawn_num])
+){  
+	global.gauge_set = true;
+}
+else {
+	global.gauge_set = false;
+}
+
+if(global.gauge_set == true){
+		self.sprite_index = asset_get_index("spr_gauge_set");
+} else {
+		self.sprite_index = asset_get_index("spr_gauge");
+}
+	
 }, [], -1);
 
 time_source_start(global.self_turn);
+

@@ -12,12 +12,25 @@ if(global.gauge_focus == true){
 	else return;
 }
 
-if(
-	pt == global.gauge_scales[global.drawn_num] || 
-	(pt <= global.gauge_scales[global.drawn_num] + 2.5 && pt >= global.gauge_scales[global.drawn_num]) ||
-	(pt >= global.gauge_scales[global.drawn_num] - 2.5 && pt <= global.gauge_scales[global.drawn_num])
-) global.gauge_set = true;
-else global.gauge_set = false;
+if (
+	image_angle == global.gauge_scales[global.drawn_num] || 
+	(image_angle <= global.gauge_scales[global.drawn_num] + 2.5 && image_angle >= global.gauge_scales[global.drawn_num]) ||
+	(image_angle >= global.gauge_scales[global.drawn_num] - 2.5 && image_angle <= global.gauge_scales[global.drawn_num])
+){  
+	global.gauge_set = true;
+}
+else {
+	global.gauge_set = false;
+}
+
+audio_sound_gain(global.rick, (image_angle - 102.9) / 147.73, 1);
+
+if(global.gauge_set == true){
+		self.sprite_index = asset_get_index("spr_gauge_set");
+} else {
+		self.sprite_index = asset_get_index("spr_gauge");
+}
+
 
 
 

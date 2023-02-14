@@ -15,6 +15,7 @@
     {"name":"inst_31BB58F3","path":"rooms/minigame5/minigame5.yy",},
     {"name":"inst_6BCEDD61","path":"rooms/minigame5/minigame5.yy",},
     {"name":"inst_18F146B7","path":"rooms/minigame5/minigame5.yy",},
+    {"name":"inst_11D59C73","path":"rooms/minigame5/minigame5.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -27,6 +28,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_31BB58F3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_automatykCableBlack","path":"objects/o_automatykCableBlack/o_automatykCableBlack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":426.0,"y":217.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6BCEDD61","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_automatykController","path":"objects/o_automatykController/o_automatykController.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1343.0,"y":5.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18F146B7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_timeBar","path":"objects/o_timeBar/o_timeBar.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":0.5,"x":0.0,"y":736.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_11D59C73","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_objective","path":"objects/o_objective/o_objective.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_automatykBackground","path":"sprites/spr_automatykBackground/spr_automatykBackground.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

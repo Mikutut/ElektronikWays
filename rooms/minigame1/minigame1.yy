@@ -9,6 +9,7 @@
   "instanceCreationOrder": [
     {"name":"inst_2D06D29D","path":"rooms/minigame1/minigame1.yy",},
     {"name":"inst_7E48DD3A","path":"rooms/minigame1/minigame1.yy",},
+    {"name":"inst_62C3789A","path":"rooms/minigame1/minigame1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -36,6 +37,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D06D29D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_gauge","path":"objects/o_gauge/o_gauge.yy",},"properties":[],"rotation":180.0,"scaleX":1.0,"scaleY":-1.0,"x":928.0,"y":768.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E48DD3A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_timeBar","path":"objects/o_timeBar/o_timeBar.yy",},"properties":[],"rotation":0.0,"scaleX":1.4062958,"scaleY":1.0,"x":0.0,"y":1017.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62C3789A","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_objective","path":"objects/o_objective/o_objective.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1536.0,"y":352.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_speaker","path":"sprites/spr_speaker/spr_speaker.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

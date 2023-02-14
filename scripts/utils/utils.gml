@@ -37,7 +37,6 @@ function ChangeToStatsRoom() {
 function finishMinigame(isCompletedPositively) {
 	if(global.current_room_idx == 1){
 		isCompletedPositively = global.gauge_set;	
-		time_source_stop(global.self_turn);
 	}
 	if(isCompletedPositively) {
 		global.score = global.score + 1;

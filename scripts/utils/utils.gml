@@ -30,6 +30,7 @@ function ChangeToRandomRoom() {
 #macro amount_of_time_in_stats 1 // in seconds
 function ChangeToStatsRoom() {
 	room_goto(Stats);	
+	if(global.mistakes >= 3) return;
 	timer = time_source_create(time_source_game, amount_of_time_in_stats, time_source_units_seconds, ChangeToRandomRoom, [], 1);
 	time_source_start(timer);
 }

@@ -9,6 +9,7 @@
     {"name":"minigame1","order":1,"path":"folders/Objects/minigame1.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_toMenuBtn","order":14,"path":"sprites/spr_toMenuBtn/spr_toMenuBtn.yy",},
     {"name":"o_automatykLightBlack","order":1,"path":"objects/o_automatykLightBlack/o_automatykLightBlack.yy",},
     {"name":"spr_skala_speaker_6","order":6,"path":"sprites/spr_skala_speaker_6/spr_skala_speaker_6.yy",},
     {"name":"spr_skala_speaker_2","order":2,"path":"sprites/spr_skala_speaker_2/spr_skala_speaker_2.yy",},
@@ -18,6 +19,7 @@
     {"name":"spr_menuHowToPlayBtn","order":10,"path":"sprites/spr_menuHowToPlayBtn/spr_menuHowToPlayBtn.yy",},
     {"name":"o_enterButton","order":1,"path":"objects/o_enterButton/o_enterButton.yy",},
     {"name":"o_automatykLightBlue","order":2,"path":"objects/o_automatykLightBlue/o_automatykLightBlue.yy",},
+    {"name":"o_toMenuBtn","order":5,"path":"objects/o_toMenuBtn/o_toMenuBtn.yy",},
     {"name":"spr_speaker","order":8,"path":"sprites/spr_speaker/spr_speaker.yy",},
     {"name":"o_game_controler","order":2,"path":"objects/o_game_controler/o_game_controler.yy",},
     {"name":"how_to_play","order":1,"path":"rooms/how_to_play/how_to_play.yy",},

@@ -4,3 +4,4 @@
 global.mg5_redConnected = false;
 global.mg5_blueConnected = false;
 global.mg5_blackConnected = false;
+global.mg5_cableHeld = "none";

@@ -4,6 +4,8 @@
   "name": "o_automatykSocketRed",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"o_automatykCableRed","path":"objects/o_automatykCableRed/o_automatykCableRed.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"o_automatykCableBlue","path":"objects/o_automatykCableBlue/o_automatykCableBlue.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"o_automatykCableBlack","path":"objects/o_automatykCableBlack/o_automatykCableBlack.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],

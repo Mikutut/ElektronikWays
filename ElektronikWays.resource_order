@@ -31,6 +31,7 @@
     {"name":"spr_skala_speaker_4","order":4,"path":"sprites/spr_skala_speaker_4/spr_skala_speaker_4.yy",},
     {"name":"spr_gauge_set","order":9,"path":"sprites/spr_gauge_set/spr_gauge_set.yy",},
     {"name":"spr_skala_speaker_7","order":7,"path":"sprites/spr_skala_speaker_7/spr_skala_speaker_7.yy",},
+    {"name":"spr_elektronikBG","order":1,"path":"sprites/spr_elektronikBG/spr_elektronikBG.yy",},
     {"name":"spr_skala_speaker_5","order":5,"path":"sprites/spr_skala_speaker_5/spr_skala_speaker_5.yy",},
   ],
 }

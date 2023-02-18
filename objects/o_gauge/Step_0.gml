@@ -17,6 +17,7 @@ if(check_pt){
 show_debug_message(pt);
 
 if(gauge_focus){
+	window_set_cursor(cr_drag);
 	if(last_pt == pt) {
 		return;
 	}

@@ -40,6 +40,7 @@ function finishMinigame(isCompletedPositively) {
 	}
 	if(isCompletedPositively) {
 		global.score = global.score + 1;
+		global.multiplier += 0.2;
 	}
 	else {
 		global.mistakes = global.mistakes + 1;

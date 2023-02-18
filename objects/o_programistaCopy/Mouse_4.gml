@@ -10,8 +10,8 @@ if(global.mg3_gameState == 1) {
 	
 	show_debug_message(max_x);
 	
-	btn_x = irandom_range(700, max_x - 700);
-	btn_y = irandom_range(200, max_y - 200);
+	btn_x = irandom_range(100, max_x - 100);
+	btn_y = irandom_range(100, max_y - 100);
 	
 	instance_create_layer(btn_x, btn_y, "Instances", o_programistaPaste);
 	instance_deactivate_object(o_programistaCopy);

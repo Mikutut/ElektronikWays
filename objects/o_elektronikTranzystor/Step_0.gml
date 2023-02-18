@@ -3,4 +3,4 @@
 
 //y coordinate needs to be static
 // We only want horizontal drag
-x += 7;
+x += (4 * global.multiplier);

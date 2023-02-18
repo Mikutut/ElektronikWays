@@ -52,7 +52,7 @@ rick = audio_play_sound(
 
 audio_sound_gain(rick, (image_angle - 102.9) / 147.73, 1);
 
-self_turn = time_source_create(time_source_game, 1, time_source_units_seconds, function(){
+self_turn = time_source_create(time_source_game, 1 / global.multiplier, time_source_units_seconds, function(){
 	if(dir == 0){
 		if(image_angle + 6.0 < 251.72) image_angle += 6.0;
 		else{ 

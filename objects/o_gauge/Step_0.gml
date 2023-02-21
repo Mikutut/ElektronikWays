@@ -14,7 +14,6 @@ if(check_pt){
 //if(start_angle != 180) pt = abs(pt - start_angle);
 
 //pt = angle_difference(pt,start_angle)
-show_debug_message(pt);
 
 if(gauge_focus){
 	window_set_cursor(cr_drag);

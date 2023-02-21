@@ -3,6 +3,8 @@
 
 window_set_cursor(cr_drag);
 drag_elapsed = current_time - drag_time;
-if(drag_elapsed < (1000 / global.multiplier)){
-	x = x <= 0 ? 0 : x - 12;
+if(drag_elapsed < 500){
+	if(x > 0){
+		x -= 12;
+	}
 }

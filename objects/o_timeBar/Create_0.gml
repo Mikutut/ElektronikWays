@@ -22,22 +22,22 @@ minigame_timer_expired_wins = false; // Whether timer expiration counts as win o
 // TODO: Add other minigames to the if-statement
 switch (global.current_room_idx){
 	case 0:
-		game_conditions(10 / global.multiplier, false);
+		game_conditions(clamp(10 / global.multiplier,2,10), false);
 		break;
 	case 1: 
-		game_conditions(7, true);
+		game_conditions(clamp(7 * global.multiplier,7,15), true);
 		break;
 	case 2:
-		game_conditions(10, true);
+		game_conditions(8, true);
 		break;
 	case 3:
-		game_conditions(10 / global.multiplier, false);
+		game_conditions(clamp(10 / (global.multiplier * 1.5),2.2,12), false);
 		break;
 	case 4:
-		game_conditions(6 / global.multiplier, false);
+		game_conditions(clamp(8 / global.multiplier,4,10), false);
 	break;
 	case 5:
-		game_conditions(10 / global.multiplier, false);
+		game_conditions(clamp(12 / global.multiplier,4,12), false);
 		break;
 	default:
 		game_conditions(5, false);

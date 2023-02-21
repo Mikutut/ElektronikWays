@@ -6,7 +6,7 @@ if(global.mg5_redConnected == false && (
 	global.mg5_cableHeld == "none" || global.mg5_cableHeld == "red"
 )) {
 	global.mg5_cableHeld = "red"
-	if(x < 940){
+	if(x < 940 || mouse_x < 940){
 		x = mouse_x;
 	}
 	y = mouse_y;

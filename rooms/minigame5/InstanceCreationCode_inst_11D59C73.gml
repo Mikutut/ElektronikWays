@@ -1,2 +1,2 @@
 header_text = "AUTOMATYK";
-desc_text = "Polacz kable";
+desc_text = "Połacz kable";

@@ -1,2 +1,2 @@
 header_text = "DZWIEKOWIEC";
-desc_text = "Ureguluj glosnosc";
+desc_text = "Ureguluj glosność";

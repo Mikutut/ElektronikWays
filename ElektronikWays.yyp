@@ -39,7 +39,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"minigame1","folderPath":"folders/Objects/minigame1.yy","order":0,},
   ],
   "IncludedFiles": [
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"gaff.ttf","CopyToMask":3035426170322551022,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"gaff.ttf","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "isEcma": false,
   "MetaData": {

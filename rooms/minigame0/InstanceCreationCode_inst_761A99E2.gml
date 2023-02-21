@@ -1,2 +1,2 @@
 header_text = "AUTOMAT";
-desc_text = "Zamow kawe";
+desc_text = "Zamów kawę";

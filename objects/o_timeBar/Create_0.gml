@@ -46,8 +46,8 @@ switch (global.current_room_idx){
 
 minigame_time = base_minigame_time;
 
-resize_timer = time_source_create(time_source_game, .01, time_source_units_seconds, function() {
-	minigame_time -= .01;
+resize_timer = time_source_create(time_source_game, .1, time_source_units_seconds, function() {
+	minigame_time -= .1;
 	image_xscale = calculateScale(minigame_time / base_minigame_time);
 }, [], -1);
 minigame_timer = time_source_create(time_source_game, base_minigame_time, time_source_units_seconds, function() {
